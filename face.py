@@ -1,0 +1,32 @@
+# پیش نیاز ها
+import turtle
+t = turtle.Turtle()
+t.fillcolor('blue')
+t.pencolor('blue')
+t.pensize(10)
+turtle.bgcolor('black')
+#
+t.penup()
+t.goto(-150, 100)  
+t.pendown()
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+#
+t.penup()
+t.goto(150,100)
+t.pendown()
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+t.hideturtle()
+#
+t.pensize(15)
+t.penup()
+t.goto(-200,-70)
+t.showturtle()
+t.pendown()
+t.begin_fill()
+t.fd(400)
+t.hideturtle()
+turtle.mainloop()
