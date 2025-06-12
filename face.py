@@ -1,4 +1,4 @@
-# پیش نیاز ها
+#
 import turtle
 t = turtle.Turtle()
 t.fillcolor('blue')
